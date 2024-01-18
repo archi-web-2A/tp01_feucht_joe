@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e4e4e4;
+  }
+  
+  #client-container {
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Add padding to maintain space inside the container */
+  }
+  
+  .container {
+    max-width: 550px;
+    margin: auto;
+  }
+
+  .form-control:focus {
+    border-color: #e2661f;
+    box-shadow: none;
+  }
+  
